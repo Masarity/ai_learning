@@ -1,0 +1,58 @@
+#include "Agent.h"
+
+
+Agent::Agent()
+{
+    std::cout << "Agent constructor called" << std::endl;
+}
+
+
+void Agent::clearCards()
+{
+    _cards.clear();
+}
+
+void Agent::getCard(Card card)
+{
+    _cards.push_back(card);
+}
+
+bool Agent::findAce()
+{
+    for (auto &iter : _cards)
+    {
+        if (iter.getValue() == 11)
+        {
+            std::cout << "masa holds: " << iter.getValue() << std::endl;
+            return true;
+
+        }
+    }
+    return false;
+}
+
+int Agent::sumCards(bool usable)
+{
+    if (usable)
+    {
+        for (auto &iter : _cards)
+        {
+            if (iter.usable())
+                break;
+        }
+    }
+    int sum = 0;
+    for (auto &iter : _cards)
+    {
+        sum += iter.getValue();
+    }
+    return sum;
+}
+
+int Agent::getPoints()
+{
+    int sum = sumCards();
+    if (sum > 21)
+        sum = sumCards(true);
+    return sum;
+}

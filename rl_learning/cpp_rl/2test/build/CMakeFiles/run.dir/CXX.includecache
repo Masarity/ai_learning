@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/masa/learning/ai_learning/rl_learning/cpp_rl/2test/main.cpp
+mlpack/core.hpp
+-
+mlpack/methods/neighbor_search/neighbor_search.hpp
+-
+

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/run.dir/main.cpp.o"
+  "CMakeFiles/run.dir/main2.cpp.o"
   "run"
   "run.pdb"
 )

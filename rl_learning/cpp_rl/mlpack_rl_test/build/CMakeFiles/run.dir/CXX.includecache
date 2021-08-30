@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/masa/learning/ai_learning/rl_learning/cpp_rl/mlpack_rl_test/main.cpp
+iostream
+-
+mlpack/core.hpp
+-
+mlpack/methods/ann/ffn.hpp
+-
+mlpack/methods/ann/init_rules/gaussian_init.hpp
+-
+mlpack/methods/ann/layer/layer.hpp
+-
+mlpack/methods/ann/loss_functions/mean_squared_error.hpp
+-
+mlpack/methods/reinforcement_learning/async_learning.hpp
+-
+mlpack/methods/reinforcement_learning/environment/cart_pole.hpp
+-
+mlpack/methods/reinforcement_learning/policy/greedy_policy.hpp
+-
+mlpack/methods/reinforcement_learning/policy/aggregated_policy.hpp
+-
+mlpack/methods/reinforcement_learning/training_config.hpp
+-
+ensmallen.hpp
+-
+

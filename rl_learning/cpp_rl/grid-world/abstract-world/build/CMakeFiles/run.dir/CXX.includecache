@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Agent1.h
+agent.h
+../include/agent.h
+
+../include/agent.h
+iostream
+-
+vector
+-
+stack
+-
+map
+-
+math.h
+-
+random
+-
+constants.h
+../include/constants.h
+world.h
+../include/world.h
+
+../include/constants.h
+
+../include/world.h
+iostream
+-
+set
+-
+math.h
+-
+constants.h
+../include/constants.h
+
+/home/masa/learning/ai_learning/rl_learning/cpp_rl/grid-world/abstract-world/src/Agent1.cpp
+Agent1.h
+/home/masa/learning/ai_learning/rl_learning/cpp_rl/grid-world/abstract-world/src/Agent1.h
+

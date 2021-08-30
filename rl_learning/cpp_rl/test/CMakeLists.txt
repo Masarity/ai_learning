@@ -12,7 +12,7 @@ include_directories(box2d /usr/local/include/box2d)
     # include_directories(${box2d_INCLUDE_DIRS})
 # endif()
 
-add_executable(run main.cpp)
+add_executable(run main2.cpp)
 
 target_link_libraries(run box2d)
 

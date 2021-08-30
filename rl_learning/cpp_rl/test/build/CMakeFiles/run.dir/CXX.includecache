@@ -6,18 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/home/masa/learning/ai_learning/rl_learning/cpp_rl/test/main.cpp
-iostream
--
-random
--
-vector
--
-algorithm
--
-map
--
+/home/masa/learning/ai_learning/rl_learning/cpp_rl/test/build/main2.cpp
 box2d.h
+-
+iostream
 -
 
 /usr/local/include/box2d/b2_api.h
